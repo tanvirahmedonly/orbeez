@@ -1,0 +1,22 @@
+body {
+    font-family: $fontSecondary;
+    font-size: 16px;
+    color: black;
+    line-height: 28px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontSecondaryBold;
+}
+.c_btn {
+    font-family: $fontPrimaryBold;
+    font-size: 16px;
+    padding: 5px 15px;
+    color: $colorPrimary;
+    background-color: $colorAccent;
+    border: 1px solid $colorAccent;
+    transition: .3s;
+    &:hover {
+        border: 1px solid $colorAccentShadow;
+        background-color: $colorAccentShadow;
+    }
+}

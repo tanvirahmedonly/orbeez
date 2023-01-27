@@ -12,6 +12,7 @@
     <meta name="author" content="Tanvir Ahmed">
 
     <!-- CSS links -->
+    <link rel="stylesheet" href="vendor/slick/slick.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -20,10 +21,362 @@
     <title>Orbeez</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+
+
+    <!-- header start -->
+    <header class="sticky-top bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">Orbeez</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                  <a class="btn btn-dark c_btn rounded-pill" href="https://discord.gg/NPzj2RqQ3y" target="_blank">Join Us</a>
+                </div>
+            </nav>
+        </div>
+    </header>      
+    <!-- header end -->
+
+
+
+    <!-- hero start -->
+    <section class="btpslider" id="hero">
+        <div class="container">
+          <div id="carouselone" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel"> <!-- In order to disable touch swiping on phone, use (data-bs-touch="false" data-bs-interval="false") instead of (data-bs-ride="carousel")-->
+            <!-- indicators start -->
+            <div class="carousel-indicators custom_carousel-indicators">
+              <button type="button" data-bs-target="#carouselone" data-bs-slide-to="0" class="active carouselone" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselone" data-bs-slide-to="1" class="carouselone" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselone" data-bs-slide-to="2" class="carouselone" aria-label="Slide 3"></button>
+            </div>
+            <!-- indicators end -->
+            <!-- inner start -->
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/hero/orbeez-hero-1.jpg" class="d-block w-100" alt="slider1">
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h1>First slide label</h1>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/hero/orbeez-hero-2.jpg" class="d-block w-100" alt="slider2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Second slide label</h1>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/hero/orbeez-hero-3.jpg" class="d-block w-100" alt="slider3">
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h1>Third slide label</h1>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <!-- inner end -->
+          </div>
+        </div>
+    </section>
+    <!-- hero end -->
+
+
+
+<!-- featured start -->
+<section class="featured">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="about_top blog_top">
+                <h2 class="m-0"><a href="blog/index.php" target="_blank">Resources<sup><i class="fa-solid fa-up-right-from-square"></i></sup></a></h2>
+              </div>
+            </div>
+        </div>
+      <div class="row align-items-center featured_slider">
+        <!-- single item start -->
+        <div class="col-lg-3 col-sm-6">
+            <a href="#">
+                <div class="s_feature">
+                    <div class="s_img">
+                      <img src="images/resources/image-1.png" class="img-fluid m-auto" alt="E-school">
+                    </div>
+                    <h2>SAT/ACT Articles</h2>
+                    <p class="m-0">Learn Anythings</p>
+                </div>
+            </a>
+        </div>
+        <!-- single item end -->
+                <!-- single item start -->
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="s_feature">
+                            <div class="s_img">
+                              <img src="images/resources/image-1.png" class="img-fluid m-auto" alt="E-school">
+                            </div>
+                            <h2>SAT/ACT Articles</h2>
+                            <p class="m-0">Learn Anythings</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- single item end -->
+                        <!-- single item start -->
+        <div class="col-lg-3 col-sm-6">
+            <a href="#">
+                <div class="s_feature">
+                    <div class="s_img">
+                      <img src="images/resources/image-1.png" class="img-fluid m-auto" alt="E-school">
+                    </div>
+                    <h2>SAT/ACT Articles</h2>
+                    <p class="m-0">Learn Anythings</p>
+                </div>
+            </a>
+        </div>
+        <!-- single item end -->
+                <!-- single item start -->
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="s_feature">
+                            <div class="s_img">
+                              <img src="images/resources/image-1.png" class="img-fluid m-auto" alt="E-school">
+                            </div>
+                            <h2>SAT/ACT Articles</h2>
+                            <p class="m-0">Learn Anythings</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- single item end -->
+                        <!-- single item start -->
+        <div class="col-lg-3 col-sm-6">
+            <a href="#">
+                <div class="s_feature">
+                    <div class="s_img">
+                      <img src="images/resources/image-1.png" class="img-fluid m-auto" alt="E-school">
+                    </div>
+                    <h2>SAT/ACT Articles</h2>
+                    <p class="m-0">Learn Anythings</p>
+                </div>
+            </a>
+        </div>
+        <!-- single item end -->
+                <!-- single item start -->
+                <div class="col-lg-3 col-sm-6">
+                    <a href="#">
+                        <div class="s_feature">
+                            <div class="s_img">
+                              <img src="images/resources/image-1.png" class="img-fluid m-auto" alt="E-school">
+                            </div>
+                            <h2>SAT/ACT Articles</h2>
+                            <p class="m-0">Learn Anythings</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- single item end -->
+      </div>
+    </div>
+  </section>
+  <!-- featured end -->
+
+
+
+
+    <!-- blog start -->
+  <section class="about blog" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="about_top blog_top">
+            <h2 class="m-0"><a href="blog/index.php" target="_blank">Insights from Orbeez<sup><i class="fa-solid fa-up-right-from-square"></i></sup></a></h2>
+          </div>
+        </div>
+      </div>
+      <div class="row blog_slider">
+            <div class="col-lg-3 col-md-6">
+              <div class="blog_featured_item rounded">
+                <div class="row">
+                  <div class="col-12 bfi_img">
+                    <div class="img_hover_zoom">
+                      <img src="images/blog/blog-featured-random-3.jpg" class="img-fluid c_bfi_img_img" alt="tanvir notes blog" loading="lazy">
+                    </div>
+                  </div>
+                  <div class="col-12 bfi_text">
+                    <a href="#">
+                      <h4 class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                    </a>
+                    <div class="bfit_info"><a href="#"><i class="fa fa-user"></i> Lavender</a><span><i class="fa fa-calendar"></i>27/01/23</span></div>
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repudiandae fugit explicabo, rerum alias dolores, neque sint ratione odit facilis aperiam.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="blog_featured_item rounded">
+                  <div class="row">
+                    <div class="col-12 bfi_img">
+                      <div class="img_hover_zoom">
+                        <img src="images/blog/blog-featured-random-4.jpg" class="img-fluid c_bfi_img_img" alt="tanvir notes blog" loading="lazy">
+                      </div>
+                    </div>
+                    <div class="col-12 bfi_text">
+                      <a href="#">
+                        <h4 class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                      </a>
+                      <div class="bfit_info"><a href="#"><i class="fa fa-user"></i> Lavender</a><span><i class="fa fa-calendar"></i>27/01/23</span></div>
+                      <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repudiandae fugit explicabo, rerum alias dolores, neque sint ratione odit facilis aperiam.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="blog_featured_item rounded">
+                  <div class="row">
+                    <div class="col-12 bfi_img">
+                      <div class="img_hover_zoom">
+                        <img src="images/blog/blog-featured-random-8.jpg" class="img-fluid c_bfi_img_img" alt="tanvir notes blog" loading="lazy">
+                      </div>
+                    </div>
+                    <div class="col-12 bfi_text">
+                      <a href="#">
+                        <h4 class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                      </a>
+                      <div class="bfit_info"><a href="#"><i class="fa fa-user"></i> Lavender</a><span><i class="fa fa-calendar"></i>27/01/23</span></div>
+                      <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repudiandae fugit explicabo, rerum alias dolores, neque sint ratione odit facilis aperiam.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="blog_featured_item rounded">
+                  <div class="row">
+                    <div class="col-12 bfi_img">
+                      <div class="img_hover_zoom">
+                        <img src="images/blog/blog-featured-random-8.jpg" class="img-fluid c_bfi_img_img" alt="tanvir notes blog" loading="lazy">
+                      </div>
+                    </div>
+                    <div class="col-12 bfi_text">
+                      <a href="#">
+                        <h4 class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                      </a>
+                      <div class="bfit_info"><a href="#"><i class="fa fa-user"></i> Lavender</a><span><i class="fa fa-calendar"></i>27/01/23</span></div>
+                      <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repudiandae fugit explicabo, rerum alias dolores, neque sint ratione odit facilis aperiam.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="blog_featured_item rounded">
+                  <div class="row">
+                    <div class="col-12 bfi_img">
+                      <div class="img_hover_zoom">
+                        <img src="images/blog/blog-featured-random-8.jpg" class="img-fluid c_bfi_img_img" alt="tanvir notes blog" loading="lazy">
+                      </div>
+                    </div>
+                    <div class="col-12 bfi_text">
+                      <a href="#">
+                        <h4 class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                      </a>
+                      <div class="bfit_info"><a href="#"><i class="fa fa-user"></i> Lavender</a><span><i class="fa fa-calendar"></i>27/01/23</span></div>
+                      <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repudiandae fugit explicabo, rerum alias dolores, neque sint ratione odit facilis aperiam.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="blog_featured_item rounded">
+                  <div class="row">
+                    <div class="col-12 bfi_img">
+                      <div class="img_hover_zoom">
+                        <img src="images/blog/blog-featured-random-8.jpg" class="img-fluid c_bfi_img_img" alt="tanvir notes blog" loading="lazy">
+                      </div>
+                    </div>
+                    <div class="col-12 bfi_text">
+                      <a href="#">
+                        <h4 class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                      </a>
+                      <div class="bfit_info"><a href="#"><i class="fa fa-user"></i> Lavender</a><span><i class="fa fa-calendar"></i>27/01/23</span></div>
+                      <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore repudiandae fugit explicabo, rerum alias dolores, neque sint ratione odit facilis aperiam.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog end -->
+
+
+
+  <!-- footer start -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Contact Us</h4>
+          <ul class="list-unstyled">
+            <li>Email: contact@example.com</li>
+            <li>Phone: 555-555-5555</li>
+            <li>Address: 123 Main St, Anytown USA</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+            <h4>My Account</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+            </ul>
+          </div>
+        <div class="col-md-3">
+          <h4>Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h4>Follow Us</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <p class="text-white pt-5">Copyright &copy;2023 - Orbeez</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- footer end -->
 
 
     <!-- JS links -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="vendor/slick/slick.min.js"></script>
+    <script src="js/components/slider.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
